@@ -54,3 +54,6 @@ form div button:hover{
     color: rgba(255, 0, 0, 0.712);
     margin-top: 5px;
 }
+.checkbox{
+    margin-top: 10px;
+}
