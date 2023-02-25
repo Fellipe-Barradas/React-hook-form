@@ -4,6 +4,7 @@
     flex-direction: column;
     font-family: "Heebo";
     color: rgba(255, 255, 255, 0.904);
+    
 }
 .content{
     display: flex;
@@ -31,4 +32,25 @@
 }
 .content input::placeholder{
     color: rgba(255, 255, 255, 0.425);
+}
+.form div button{
+    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: #074b8200;
+    border: 1px solid rgba(255, 255, 255, 0.897);
+    color: white;
+    cursor: pointer;
+}
+form div button:hover{
+    background-color: #074A82;
+    border: 1px solid rgba(255, 255, 255, 0.712);
+    transition: 600ms;
+}
+.errorMsg{
+    color: rgba(255, 0, 0, 0.712);
+    margin-top: 5px;
 }
